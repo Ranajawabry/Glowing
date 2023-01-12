@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap'); 
+a{
+    border-bottom: 1px solid white;
+}
+body{
+    font-family: Urbanist;
+}
+@media (width <575px){
+    .carousel-indicators{
+        bottom: -50px;
+    }
+    .col-md-3 .actions {
+        left: 300px;   
+    }
+    .carousel-item{
+        pointer-events: none;
+    }
+    
+}
+.our-best-sellers p,
+.customer-service p,
+.new-arrivals p{
+    font-weight: 500;
+    color: #7E7E7E;
+}
+.header{
+    animation-name: headTrans;
+    animation-duration: 1.5s;
+}
+@keyframes headTrans {
+    0%{
+        transform: translateY(100px);
+        visibility:hidden;
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+.carousel-indicators{
+    bottom: -65px;
+}
+.carousel-indicators [data-bs-target] {
+    height: 5px;
+    width: 5px;
+    border: 1px solid;
+    background-color: black;
+    border-radius: 100%;
+    opacity: 1;
+    margin-right: 17px;
+}
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    background-color: white;
+}
+.carousel-inner .carousel-item:nth-child(1) .row .col-md-3:nth-child(1){
+    animation-name: carouselTrans;
+    animation-duration: 1.5s;
+}
+.carousel-inner .carousel-item:nth-child(1) .row .col-md-3:nth-child(2){
+    animation-name: carouselTrans;
+    animation-duration: 1.75s;
+}
+.carousel-inner .carousel-item:nth-child(1) .row .col-md-3:nth-child(3){
+    animation-name: carouselTrans;
+    animation-duration: 2s;
+}
+.carousel-inner .carousel-item:nth-child(1) .row .col-md-3:nth-child(4){
+    animation-name: carouselTrans;
+    animation-duration: 2.25s;
+}
+
+@keyframes carouselTrans {
+    0%{
+        transform: translateY(180px);
+        visibility:hidden;
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+.carousel-item .product-desc a{
+    transition: .5s;
+}
+.carousel-item .product-desc a:hover{
+    border-bottom: 1px solid black;
+   
+}
+.carousel-item .product-desc span{
+    font-size: 12px;
+    color: #4E7661;
+}
+
+.col-md-3 img{
+    cursor: pointer;
+    
+}
+.col-md-3 img:nth-child(2){
+    top: 0;
+    position: absolute;
+    left: 0;
+    transition: .5s;
+}
+.col-md-3:hover img:nth-child(2){
+    opacity: 0;
+   
+}
+.col-md-3 .actions {
+    top: 100px;
+    left: 280px;
+    gap: 10px;
+    width: 45px;
+
+}
+
+.col-md-3 .actions a:hover{
+
+    background-color: black !important;
+    color: white !important;
+}
+.col-md-3 .actions a:nth-child(1){
+    
+    transition:all .75s;
+}
+.col-md-3 .actions a:nth-child(2){
+    
+    transition:all 1s;
+}
+.col-md-3:hover .actions a{
+    transform:translateX(-70px);
+    visibility:visible;
+    opacity: 1;
+
+}
+.col-md-3 > span{
+    background-color: #4E7661;
+    width: 60px;
+    height: 24px;
+    color: white;
+    border-radius: 3px;
+    text-align: center;
+    left: 20px;
+    top: 7px;
+}
+.customer-service{
+    margin-top: 10rem;
+    background-color: #F7F7F7;
+    
+} 
+.customer-service .col-md-3{
+    animation-name: servicesTrans;
+    animation-duration: 1.5s;
+}
+.customer-service i{
+    color: #5d8d74;
+    
+}
+.customer-service i:hover {
+    color: #0fea79;
+    box-shadow: 5px #0fea79;
+    text-shadow: 5px #0fea79;
+  }
+/* @keyframes servicesTrans {
+    0%{
+        transform: translateY(180px);
+        visibility:hidden;
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+        visibility: visible;
+    }
+} */
+
