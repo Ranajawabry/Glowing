@@ -114,7 +114,7 @@ body{
 }
 .col-md-3 .actions {
     top: 100px;
-    left: 280px;
+    left: 100%;
     gap: 10px;
     width: 45px;
 
@@ -134,7 +134,7 @@ body{
     transition:all 1s;
 }
 .col-md-3:hover .actions a{
-    transform:translateX(-70px);
+    transform:translateX(-120%);
     visibility:visible;
     opacity: 1;
 
