@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap');
+header .container{
+    height: 100vh;
+}
+header .header-content{
+    top: 30%;
+}
+header .header-content p,
+header .header-content h1{
+    animation-name: headTransTop;
+    animation-duration: 1.5s;
+}
+@keyframes headTransTop {
+    0%{
+        transform: translateY(-100px);
+        visibility:hidden;
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+header .header-content a{
+    animation-name: headTrans;
+    animation-duration: 1.5s;
+}
+@keyframes headTrans {
+    0%{
+        transform: translateY(50px);
+        visibility:hidden;
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+header p {
+    color: #4e7661;
+}
+header h1{
+    font-size: 48px;
+}
+.background-img{
+    background-size: cover;
+    background-position: center;
+    height: 778px;
+    font-family: urbanist;
+}
+button.splide__arrow.splide__arrow--prev,
+button.splide__arrow.splide__arrow--next,
+ul.splide__pagination.splide__pagination--ltr{
+    display: none;
+}
