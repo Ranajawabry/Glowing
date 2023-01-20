@@ -13,7 +13,35 @@ ul {
   nav .container {
     max-width: 1250px !important;
   }
+} 
+/*////// top button css/////*/
+.top_btn{
+bottom: 15px;
+right: 15px;
+z-index: 9999;
+animation: top_animation;
+animation-duration: .7s;
+
 }
+.top_btn a{
+  text-decoration : none !important;
+}
+.top_btn:hover{
+  background-color: #222222 !important;
+}
+.top_btn:hover i{
+  color: #ccc;
+}
+
+@keyframes top_animation{
+  0%{
+    transform: translateX(100%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+}
+/*//////////////////////////////*/
 .nav-top {
   font-weight: 700;
   font-size: 0.8125rem;
@@ -21,6 +49,7 @@ ul {
   color: white;
   letter-spacing: 1.3px;
   padding: 8px 0;
+
 }
 .navbar {
   padding: 2% 0;
