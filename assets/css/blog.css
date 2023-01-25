@@ -45,6 +45,9 @@ nav .nav-icons{
 }
 */
 /* ///// blog information css ////////// */
+.information ul{
+    display: block;
+}
 .information .list_:first-child p{
     color: #89807e !important;
     font-weight: 500;
