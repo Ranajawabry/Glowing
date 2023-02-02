@@ -1,0 +1,75 @@
+/*////freq-question css/////*/
+
+a{
+    text-decoration: none !important;
+}
+a.d-inline-block.me-4{
+    text-decoration: none !important;
+}
+
+.freq-questtion{
+    padding: 0 5%;
+}
+.freq-questtion h1{
+    font-size: 50px;
+    font-weight: 600;
+    
+}
+.freq-questtion img{
+    transform: scale(1.4);
+    transition: .5s;
+   
+}
+.freq-questtion img:hover{
+    transform: scale(1.8);
+   
+}
+@media (max-width:765px) {
+  
+    .freq-questtion{
+        padding: 0 0%;
+    }
+    .freq-questtion .container-fluid{
+        width: 100%;
+    }
+    .freq-questtion h1{
+        font-size: 40px;
+        font-weight: 600;
+        
+    }
+}
+/*////////// order_shipping css */
+
+.order_shipping{
+    padding: 0 5%;
+}
+
+.order_shipping h2{
+    font-size: 38px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.order_shipping .ques{
+    border-bottom: 3px solid #eeeeee;
+}
+.ans p{
+    color: #8292a3;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+/*//////////////*/
+footer .icon a{
+    color: black;
+   
+}

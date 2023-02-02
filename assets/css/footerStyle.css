@@ -9,8 +9,9 @@
     background-color: black;
     color: #f8f8f8;
 }
+
 a{
-    text-decoration: none;
+    text-decoration: none !important;
     color: black;
 }
 body{
@@ -306,7 +307,7 @@ opacity: 0;
 }
 .information .list_ h3{
     font-family: 'Urbanist', sans-serif;
-    font-size: 23px;
+    font-size: 28px;
     font-weight: 600;
     margin-bottom: 28px;
 }
@@ -333,7 +334,7 @@ opacity: 0;
    margin-top: 0;
 }
    .information .list_ {
-    margin-top: 20px;
+    margin-top: 25px;
 }
 }
 
@@ -354,7 +355,7 @@ footer .icon .title{
     background-color: black;
     color: #f8f8f8;
     width:fit-content;
-    padding: 4px;
+    padding: 6px;
     height: 30px;
     border-radius: 8px;
     font-size: 16px;
@@ -397,7 +398,17 @@ footer .icon li:hover .title{
    footer .pay img{
     width: 55% !important;
    }
+   footer .logo{
+    margin-top: 25px ;
+    margin-bottom: 25px  ;
 }
+     footer .pay{
+    margin-top: 25px ;
+    margin-bottom: 25px ;
+}
+}
+
+
 @media (max-width:765px) {
     footer .icon  ul{
         text-align: start;

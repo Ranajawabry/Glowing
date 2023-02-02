@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
 }
-.title{
+a.text-black.fs-6{
+    text-decoration: none;
+}
+.blogs .title{
     color: #131313;
     font-size: 40px;
     font-weight: 600;
@@ -16,7 +19,7 @@
     padding-bottom: 58px;
 
 }
-ul{
+.blogs ul{
     list-style-type: none;
     display: flex;
     font-size: 13px;
@@ -26,11 +29,11 @@ ul{
     
 }
 
-ul li{
+.blogs ul li{
     
     line-height: 1.5;
 }
-ul li a{
+.blogs ul li a{
     font-family: 'Urbanist' ;
     color: rgb(126 , 126 , 126);
     text-decoration: none;
