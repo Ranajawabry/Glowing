@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap');
+
+.header{
+    width: 590px;
+}
+.header p{
+    font-family: 'Urbanist';
+    font-size: 18px;
+    color: #7E7E7E;
+    font-weight: 500;
+}
+.col-md-5{
+    width: 41.4%;
+}
+.col-12{
+    width: 100%!important;
+}
+.contact p{
+    color: #7E7E7E;
+    font-size: 18px;
+    font-weight: 500;
+}
+.contact span{
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+@media (width<991px) {
+    .col-md-5,.col-md-10{
+        width: 100%;
+    }
+}
