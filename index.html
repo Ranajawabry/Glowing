@@ -28,8 +28,8 @@
     <div class="nav-top text-center d-none d-lg-block">
       <p class="mb-0">FREE SHIPPING ON ALL U.S. ORDERS $50+</p>
     </div>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white">
-      <div class="container">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white py-4 position-sticky top-0 px-xl-5">
+      <div class="container-fluid px-xl-5">
         <div class="search" id="search">
           <i class="fa-solid fa-magnifying-glass"></i>
           <span class="d-none d-lg-block">Search</span>
@@ -51,7 +51,7 @@
               <a class="nav-link active" aria-current="page" href="#">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">SHOP</a>
+              <a class="nav-link" href="shop.html">SHOP</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">ABOUT US</a>
@@ -65,16 +65,27 @@
               <a class="nav-link" href="blog.html">BLOG</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CONTACT</a>
+              <a class="nav-link" href="contact.html">CONTACT</a>
             </li>
             <li class="nav-item me-0">
               <a class="nav-link me-0" href="FAQ.html">FAQ</a>
             </li>
           </ul>
           <div class="nav-icons">
-            <i class="fa-regular fa-user"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
+            <ul class="list-inline ms-auto ">
+
+              <li class="list-inline-item ms-3 "> <i class="fa-solid fa-magnifying-glass"></i></li>
+              <li class="list-inline-item ms-3"> <i class="fa-regular fa-user"></i></li>
+              <li class="list-inline-item ms-3 position-relative"> 
+                <i class="fa-regular fa-star position-relative" ></i>
+                <span class="position-absolute bg-black text-white rounded-circle" id="wish">0</span>
+              </li>
+              <li class="list-inline-item ms-3 position-relative"> 
+                <i class="fa-regular fa-credit-card" ></i>
+                <span class="position-absolute bg-black text-white rounded-circle" id="card">0</span>
+              </li>
+              
+              </ul>
           </div>
         </div>
       </div>
@@ -86,10 +97,10 @@
       </div>
       <ul class="list">
         <li><a href="">HOME</a></li>
-        <li><a href="">SHOP</a></li>
+        <li><a href="shop.html">SHOP</a></li>
         <li><a href="">ABOUT US</a></li>
         <li><a href="blog.html">BLOG</a></li>
-        <li><a href="">CONTACT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
         <li><a href="FAQ.html">FAQ</a></li>
       </ul>
     </aside>
@@ -101,9 +112,9 @@
                       <div class="background-img" style="background-image: url('assets/imgs/sliderImg3.jpg');">
                           <div class="container position-relative">
                               <div class="header-content position-absolute" id="header-cont">
-                                  <p class="fw-bold fs-4 mb-5">New Collection</p>
+                                  <p class="fw-bold fs-3 mb-5">New Collection</p>
                                   <h1 class="mb-5 fw-bold">Get The Skin <br> You Want To Feel</h1>
-                                  <a class="fs-6 fw-bold text-decoration-none text-black border-2 border-dark border-bottom" href="#">Discover now &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+                                  <a class="fs-4 fw-bold text-decoration-none text-black border-2 border-dark border-bottom" href="#">Discover now &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                               </div>
                           </div>
                       </div>
@@ -112,9 +123,9 @@
                       <div class="background-img" style="background-image: url('assets/imgs/sliderImg1.jpg');">
                           <div class="container position-relative">
                               <div class="header-content position-absolute" id="header-cont">
-                                  <p class="fw-bold fs-4 mb-5">The Pearl Glow</p>
+                                  <p class="fw-bold fs-3 mb-5">The Pearl Glow</p>
                                   <h1 class="mb-5 fw-bold">Let's Introduce Skin <br> With The Shine</h1>
-                                  <a class="fs-6 fw-bold text-decoration-none text-black border-2 border-dark border-bottom" href="#">Discover now &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+                                  <a class="fs-4 fw-bold text-decoration-none text-black border-2 border-dark border-bottom" href="#">Discover now &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                                   
                               </div>
                           </div>
@@ -124,9 +135,9 @@
                       <div class="background-img" style="background-image: url('assets/imgs/sliderImg2.jpg');">
                           <div class="container position-relative">
                               <div class="header-content position-absolute" id="header-cont">
-                                  <p class="fw-bold fs-4 mb-5">Get The Glow</p>
+                                  <p class="fw-bold fs-3 mb-5">Get The Glow</p>
                                   <h1 class="mb-5 fw-bold">Love Your Skin <br> Naturally</h1>
-                                  <a class="fs-6 fw-bold text-decoration-none text-black border-2 border-dark border-bottom" href="#">Discover now &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
+                                  <a class="fs-4 fw-bold text-decoration-none text-black border-2 border-dark border-bottom" href="#">Discover now &nbsp;&nbsp; <i class="fa-solid fa-arrow-right"></i></a>
                                   
                               </div>
                           </div>
@@ -225,8 +236,8 @@
                   </div>
                   <div class="col-md-3 overflow-hidden position-relative">
                     <div class="img overflow-hidden position-relative">
-                      <img src="assets/img/conditioner-2.jpg" class="w-100">
-                      <img src="assets/img/conditioner-1.jpg" class="w-100">
+                      <img src="assets/img/conditioner.jpg" class="w-100">
+                      <img src="assets/img/conditioner1.jpg" class="w-100">
                       <div class="actions  position-absolute d-flex flex-column ">
                         <a href="#" data-bs-toggle="tooltip" data-bs-title="Select options" data-bs-placement="left" class="text-black bg-white shadow-sm text-center rounded-circle p-2 fs-5"><i class="fa-solid fa-cart-shopping"></i></a>
                         <a href="#" data-bs-toggle="tooltip" data-bs-title="Add to favourite" data-bs-placement="left" class="text-black bg-white shadow-sm text-center rounded-circle p-2 fs-5"><i class="fa-regular fa-star"></i></a>
@@ -423,8 +434,8 @@
             <div class="row">
                 <div class="col-md-3 overflow-hidden position-relative" id="item1">
                   <div class="img overflow-hidden overflow-md-visible position-relative">
-                    <img src="assets/img/conditioner-2.jpg" class="w-100">
-                    <img src="assets/img/conditioner-1.jpg" class="w-100">
+                    <img src="assets/img/conditioner.jpg" class="w-100">
+                    <img src="assets/img/conditioner1.jpg" class="w-100">
                     <div class="actions position-absolute d-flex flex-column ">
                       <a href="#" data-bs-toggle="tooltip" data-bs-title="Select options" data-bs-placement="left" class="text-black bg-white shadow-sm text-center rounded-circle p-2 fs-5"><i class="fa-solid fa-cart-shopping"></i></a>
                       <a href="#" data-bs-toggle="tooltip" data-bs-title="Add to favourite" data-bs-placement="left" class="text-black bg-white shadow-sm text-center rounded-circle p-2 fs-5"><i class="fa-regular fa-star"></i></a>
@@ -714,6 +725,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   <script src="assets/js/scriptSlider.js"></script>
   <!-- Bootstrap 5.2 JS  -->
+    <script src="assets/js/shop.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
      <script src="assets/js/footer.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

@@ -1,3 +1,4 @@
+
 var navBtn = document.getElementById("nav-btn");
 var sideMenu = document.getElementById("side-menu");
 
@@ -19,3 +20,6 @@ function hideSide(){
     document.body.style.paddingLeft = "0";
     sideMenu.classList.remove("active");
 }
+//////////////////
+
+

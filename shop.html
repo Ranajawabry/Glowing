@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Font awesome 6 -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- sweet alert css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.1/sweetalert2.min.css" integrity="sha512-NvuRGlPf6cHpxQqBGnPe7fPoACpyrjhlSNeXVUY7BZAj1nNhuNpRBq3osC4yr2vswUEuHq2HtCsY2vfLNCndYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Bootstrap 5.2 CSS-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="assets/css/footerStyle.css">
+    <link rel="stylesheet" href="assets/css/shop.css">
+    
+   
+    <title>home page</title>
+  </head>
+  <body>
+    <div class="top_btn position-fixed " id="top_btn">
+        <button class="border-0 bg-secondary p-3"> <i class="fa-solid fa-arrow-up fs-3"></i></button>
+       </div>
+      <div class="nav-top text-center d-none d-lg-block px-5">
+          <p class="mb-0">FREE SHIPPING ON ALL U.S. ORDERS $50+</p>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-white px-lg-5 px-md-2 position-sticky top-0 ">
+          <div class="container-fluid ">
+            <button
+            class="navbar-toggler"
+            type="button"
+            id="nav-btn"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">SHOP</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#">ABOUT US</a>
+                </li>
+              
+                <li class="nav-item">
+                  <a class="nav-link " href="blog.html">BLOG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+                <li class="nav-item me-0">
+                  <a class="nav-link me-0" href="FAQ.html">FAQ</a>
+                </li>
+              </ul>
+            </div>
+              <div class="nav-logo ">
+                  <a href="#"> <img src="assets/images/logo.png" class="w-lg-50 " alt=""></a>
+              </div>
+              <div class="nav-icons w-25  ">
+                <ul class="list-inline ms-auto ">
+
+              <li class="list-inline-item ms-3 "> <i class="fa-solid fa-magnifying-glass"></i></li>
+              <li class="list-inline-item ms-3"> <i class="fa-regular fa-user"></i></li>
+              <li class="list-inline-item ms-3 position-relative"> 
+                <i class="fa-regular fa-star position-relative" ></i>
+                <span class="position-absolute bg-black text-white rounded-circle" id="wish">0</span>
+              </li>
+              <li class="list-inline-item ms-3 position-relative"> 
+                <i class="fa-regular fa-credit-card" ></i>
+                <span class="position-absolute bg-black text-white rounded-circle" id="card">0</span>
+              </li>
+              
+              </ul>
+              </div>
+            </div>
+        </nav>
+        <aside class="side-menu" id="side-menu">
+          <div class="aside-search">
+            <input type="text" placeholder="Type and hit Enter" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <ul class="list">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="">SHOP</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+          </ul>
+        </aside>
+        <div class="home_blog d-flex py-3">
+          <div class="m-auto">
+              <a  href="#"  class="d-inline-block me-4"> <i class="fa-solid fa-house text-black pe-1"></i> Home</a>
+              <div class=" row d-inline-block bg-black"></div>
+              <p class="d-inline-block ms-4">Shop</p>
+          </div>
+        </div>
+        <div>
+            <h1 class="text-capitalize text-center py-4 my-4 fs-1">shop</h1>
+        </div>
+
+        <section class="products my-4" id="products">
+            <div class="container">
+
+                <div class="d-flex justify-content-around">
+
+                <div class="view px-4 d-flex">
+                    <a href="# "><i class=" table fas fa-th d-inline-block me-2 fs-2"  id="colum"></i></a>
+                    <a href="# " ><i class="fa-solid fa-bars d-inline-block ms-3 fs-2 " id="row"></i></a>
+                </div>
+                <div class="px-5">
+
+                  <input class="form-control me-2" type="search" id="search" placeholder="Search" aria-label="Search">
+                      
+                </div>
+                <div class="filter"> 
+                    <button class=" py-lg-3  px-lg-5  bg-black text-white rounded" id="filter"><i class="fa-solid fa-filter pe-xl-3"></i>Filter</button>
+                </div>
+
+            </div>
+
+            <div class="bg-light px-5 py-5 mt-4 Division" id="Division">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5 class="fs-3 fw-bold ">Product categories</h5>
+                        <ul>
+                            <li class="fs-5 mt-1 "><a href="#">Body Care</a></li>
+                            <li class="fs-5  mt-1"><a href="#">Skin Care</a></li>
+                            <li class="fs-5 mt-1 "><a href="#">Hair Care</a></li>
+                            <li class="fs-5 mt-1 "><a href="#">Accessories</a></li>
+
+                        </ul>
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <h5 class="fs-3 fw-bold ">Filter by Color</h5>
+                        <ul>
+                            <li class="fs-5 mt-1 "><a href="#" >Blue</a></li>
+                            <li class="fs-5  mt-1"><a href="#" >Green</a></li>
+                            <li class="fs-5 mt-1 "><a href="#" >Red</a></li>
+                            <li class="fs-5 mt-1 "><a href="#" >Yellow</a></li>
+                            <li class="fs-5 mt-1 "><a href="#" >Gray</a></li>
+
+
+                        </ul>
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <h5 class="fs-3 fw-bold ">Filter by Price </h5>
+                        <ul>
+                            <li class="fs-5 mt-1 "><a href="#">All</a></li>
+                            <li class="fs-5  mt-1"><a href="#">$0 - $20</a></li>
+                            <li class="fs-5 mt-1 "><a href="#">$20 - $40</a></li>
+                            <li class="fs-5 mt-1 "><a href="#">$40 - $60</a></li>
+                            <li class="fs-5 mt-1 "><a href="#">$60 - $80</a></li>
+
+
+                        </ul>
+
+                        </div>
+                        
+                    </div>
+                </div>
+              </div>
+
+              
+              <div class="position-relative"  >
+                
+                <div class="loading " id="loading">
+                  
+                  <div>
+                    <span class="loader"></span>
+                  </div>
+                  
+                </div>
+              
+                 
+                <div class="row" id="row_product" >
+                  <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/conditioner.jpg" class="card-img-top" id="condtioner" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$10.00 – $20.00</h5>
+                          <a href="#" class="text-black">Shield Conditioner</a>
+                          <div class="stars mt-2">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="sale position-absolute">
+                            <span class='px-2 rounded py-1'>-17%</span>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a  class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                    </div>
+                      </div>
+
+                </div>
+
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/brown-product2.jpg" class="card-img-top" id="brown_product" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$20.00</h5>
+                          <a href="#" class="text-black">Perfecting Facial Oil</a>
+                          <div class="stars mt-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                        
+                    </div>
+                      </div>
+
+                </div>
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/toner.jpg" class="card-img-top" id="toner" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><span class="pre_pri text-decoration-line-through pe-2"> $25.00</span> $23.00</h5>
+                          <a href="#" class="text-black">Enriched Hand & Body Wash</a>
+                          <div class="stars mt-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="sale position-absolute">
+                            <span class='px-2 rounded py-1'>-8%</span>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                    </div>
+                      </div>
+
+                </div>
+
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/hair-oil1.jpg" class="card-img-top" id="hair_oil" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$45.00</h5>
+                          <a href="#" class="text-black">Shield Shampoo</a>
+                          <div class="stars mt-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                       
+                    </div>
+                      </div>
+
+                </div>
+
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/cleanser.jpg" class="card-img-top" id="cleanser" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"> $90.00 </h5>
+                          <a href="#" class="text-black">Enriched Hand Wash</a>
+                          <div class="stars mt-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                       
+                    </div>
+                      </div>
+
+                </div>
+
+
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/enriched.jpg" alt="" id="enriched"/>
+                        <div class="card-body">
+                          <h5 class="card-title">$18.00 – $90.00</h5>
+                          <a href="#" class="text-black">Enriched Duo</a>
+                          <div class="stars mt-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                       
+                    </div>
+                      </div>
+
+                </div>
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/spray1.jpg" class="card-img-top" id="spray" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$30.00 – $55.00</h5>
+                          <a href="#" class="text-black">Shield Spray</a>
+                          <div class="stars mt-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                       
+                    </div>
+                      </div>
+
+                </div>
+
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/eye-cream.jpg" id="eye_cream" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><span class="pre_pri text-decoration-line-through pe-2"> $20.00 </span>$18.00</h5>
+                          <a href="#" class="text-black">Vital Eye Cream</a>
+                          <div class="stars mt-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="sale position-absolute">
+                            <span class='px-2 rounded py-1'>-10%</span>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                    </div>
+                      </div>
+
+                </div>
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/scrub.jpg" class="card-img-top" id="scrub" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$18.0</h5>
+                          <a href="#" class="text-black">Supreme Moisture Mask</a>
+                          <div class="stars mt-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="sale position-absolute">
+                            <span class='px-2 rounded py-1'>-17%</span>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                    </div>
+                      </div>
+
+                </div>
+
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/white-product.jpg" id= "polishing" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$45.00</h5>
+                          <a href="#" class="text-black">Supreme Polishing Treatment</a>
+                          <div class="stars mt-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                       
+                    </div>
+                      </div>
+
+                </div>
+
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/body-balm-1.jpg" id="body_balm" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$42.00 – $45.00</h5>
+                          <a href="#" class="text-black">Scalp Moisturizing Cream</a>
+                          <div class="stars mt-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="sale position-absolute">
+                            <span class='px-2 rounded py-1'>-7%</span>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                    </div>
+                      </div>
+
+                </div>
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/cleansing-oil-blue.jpg" id="cleansing_oil_blue" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$15.00 – $20.00</h5>
+                          <a href="#" class="text-black">Natural Coconut Cleansing Oil</a>
+                          <div class="stars mt-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="sale position-absolute">
+                            <span class='px-2 rounded py-1'>-17%</span>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                    </div>
+                      </div>
+
+                </div>
+
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/blue-mirror.jpg" id="blue_mirror" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$11.05</h5>
+                          <a href="#" class="text-black text-capitalize">hideaway mirror</a>
+                          <div class="stars mt-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="sale position-absolute">
+                            <span class='px-2 rounded py-1'>-17%</span>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                    </div>
+                      </div>
+
+                </div>
+
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/blue-bag.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">  <span class="pre_pri text-decoration-line-through pe-2"> $20.00 </span> $18.00</h5>
+                          <a href="#" class="text-black text-capitalize">getaway travel case set</a>
+                          <div class="stars mt-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="sale position-absolute">
+                            <span class='px-2 rounded py-1'>-10%</span>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                    </div>
+                      </div>
+
+                </div>
+
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/nude-case.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">$18.00</h5>
+                          <a href="#" class="text-black text-capitalize">sideway travel case set</a>
+                          <div class="stars mt-1">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="sale position-absolute">
+                            <span class='px-2 rounded py-1'>-17%</span>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                    </div>
+                      </div>
+
+                </div>
+                <div class="product col-xl-3 col-md-6 col-sm-12 mt-3">
+                    <div class="card border-0 position-relative overflow-hidden" style="width: 18rem;">
+                        <img src="assets/img/blue-comb.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"> <span class="pre_pri text-decoration-line-through pe-2"> $3.00 </span>$2.00</h5>
+                          <a href="#" class="text-black">Detangling comb</a>
+                          
+                        <div class="sale position-absolute">
+                            <span class=' px-2 rounded py-1'>-3%</span>
+                        </div>
+                        <div class="icons position-absolute">
+                          <a href="#" class="d-block "><span class="fs-6">add to card</span><i class="fa-solid fa-cart-shopping  fs-4"></i></a>
+                         <a href="#" class="d-block"><span class="fs-6">add to wish list</span><i class="fa-regular fa-star fs-4"></i></a>
+                        </div>
+                    </div>
+                      </div>
+
+                </div>
+
+
+
+                 
+                  
+                  
+
+                    
+                  </div>
+
+                       
+                      </div>
+
+                    </div>
+            
+        </section>
+
+
+        <section class="information">
+            <div class="container-fluid">
+                <div class="row">
+                    
+                    <div class="list_ col-xl-3 col-md-4 col-xs-12 mt-md-0 ">
+                        <h3 >Company</h3>
+                       <p >Find a location nearest you. See <a href="#" class="text-black fs-6">Our Stores</a></p>
+                       <span class="text-black fw-bold">+391 (0)35 2568 4593</span>
+                       <p class="mt-3 ">hello@domain.com</p>
+                    </div>
+                    <div class="list_ col-xl-2 col-md-4 col-xs-12 mt-md-0 mt-xs-4">
+                        <h3>useful link</h3>
+                        <ul class="list-unstyled">
+                         <li class="my-3"><a href="#">new products</a></li>
+                         <li class="my-3"><a href="#">best sellers</a></li>
+                         <li class="my-3"><a href="#">bandle & save</a></li>
+                         <li class="my-3"><a href="#">on line gift card</a></li>
+                        </ul>
+                    </div>
+                    <div class="list_ col-xl-2 col-md-4 col-xs-12 ">
+                        <h3>information</h3>
+                        <ul class="list-unstyled">
+                         <li class="my-3"><a href="#">start a return</a></li>
+                         <li class="my-3"><a href="#">contact us</a></li>
+                         <li class="my-3"><a href="#">shipping FAQ</a></li>
+                         <li class="my-3"><a href="#">terms & conditions</a></li>
+                         <li class="my-3"><a href="#">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class=" text col-xl-4 col-xs-12 me-5">
+                        <h2>Good emails.</h2>
+                        <p>Enter your email below to be the first to know about new collections and product launches.</p>
+                        <form >
+                            <div class=" user_entry d-flex w-100 flex-wrap m-auto justify-content-center my-5 position-relative">
+                            <input class=" email w-75 bg-white px-4 rounded-start-2 border-0 py-3 "  id="email" type="email"  placeholder="Enter your email address">
+                            <input class=" submit w-25 text-white bg-black text-capitalize py-2 border-0 rounded-end-2" type="submit" id ="submit" value="subscibe">
+                            <div class="massege d-b">
+                                <p>. يرجى ملء هذا الحقل <span><i class="fa-solid fa-exclamation"></i></span></p>
+                            </div>
+                        </div>
+                          </form>
+                    </div>
+      
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="icon col-xl-4 mt-md-1">
+                        <ul class="list-inline">
+                            <li class="list-inline-item me-md-4 mt-4"><span>&copy Glowing 2022</span></li>
+                            <li class="list-inline-item me-md-2 ms-2 ">
+                                <div class="title">twitter</div>
+                               <a href="#" class="text-black"> <i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item  ">
+                                <div class="title">facebook</div>
+                                <a href="#" class="text-black"><i class="fa-brands fa-facebook-f"></i></li></a>
+                            <li class="list-inline-item  ">
+                                <div class="title">instagram</div>
+                               <a href="#" class="text-black"><i class="fa-brands fa-instagram"></i></li></a> 
+                            <li class="list-inline-item  ">
+                                <div class="title">youtube</div>
+                               <a href="#" class="text-black"> <i class="fa-brands fa-youtube"></i></li></a>
+                        </ul>
+                    </div>
+                    <div class="logo col-xl-4 text-center  my-md-3">
+                        <img class="w-50" src="assets/images/footer_img/logo-black-pollo2rrr9op85vlueyalq3ndsvd1guppjav5e9o04.png" alt="">
+                    </div>
+                    <div class="pay  col-xl-4 text-xl-end text-sm-center my-md-3  ">
+                        <img class="w-75" src="assets/images/footer_img/icon-pay.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+  <!-- Bootstrap 5.2 JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="assets/js/footer.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <!-- sweet alert JS -->
+    <script src="assets/js/shop.js"  ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.1/sweetalert2.min.js" integrity="sha512-vCI1Ba/Ob39YYPiWruLs4uHSA3QzxgHBcJNfFMRMJr832nT/2FBrwmMGQMwlD6Z/rAIIwZFX8vJJWDj7odXMaw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/main.js"></script>
+    
+  </body>
+</html>

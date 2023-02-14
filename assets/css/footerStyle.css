@@ -13,6 +13,7 @@
 a{
     text-decoration: none !important;
     color: black;
+    border-bottom: none;
 }
 body{
     font-family: 'Urbanist', sans-serif;
