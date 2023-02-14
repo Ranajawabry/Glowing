@@ -21,8 +21,24 @@ let glow_products=[
 
 let wish=document.getElementById('wish');
 let card=document.getElementById('card');
- let wish_list = JSON.parse(localStorage.getItem('wish_list'));
+let wish_list;
+let card_list;
+if(JSON.parse(localStorage.getItem('wish_list'))==null){
+  wish_list=[];
+}
+else{
+  wish_list=JSON.parse(localStorage.getItem('wish_list'))
+}
+/////////////////////
+if(JSON.parse(localStorage.getItem('card_list'))==null){
+  card_list=[];
+}
+else{
+  card_list=JSON.parse(localStorage.getItem('card_list'))
+}
+ 
 wish.innerHTML = wish_list.length;
+card.innerHTML = card_list.length;
 let result = "";
 let row_product= document.getElementById('row_product');
 //////////////// loading JS////////////
@@ -111,7 +127,8 @@ for (const singleItem in products ){
 }
 */
 //console.log(polishing);
-////// top button js
+
+//////////////////////// top button js//////////////
  let products = document.getElementById("products");
 document.getElementById("top_btn").style.opacity='0';
 window.addEventListener("scroll",function(){
@@ -132,6 +149,7 @@ document.getElementById("top_btn").addEventListener("click",function(){
     behavior:"smooth"
    })
 })
+////////////////////////////////////////
 
 ////////////////////////////////// Hover JS/////////////////////////////////
 
@@ -408,7 +426,7 @@ function AddToWish(a) {
 
 }
 ///////////////////Add to card_list/////////////////
- let card_list=[];
+
  let totalCoast = 0;
 function AddToCard(a) {
     let card_item={};
@@ -765,6 +783,6 @@ search.onkeyup = ()=>{
     }
     
 
-
-
+ ///////////// 
+//export {wish_list};
 

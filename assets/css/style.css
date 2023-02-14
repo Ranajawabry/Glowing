@@ -111,6 +111,9 @@ nav{
 .nav-icons i {
   font-size: 20px;
 }
+.nav-icons a:hover{
+  color: black;
+}
 .nav-icons i:not(:first-child) {
   margin-left: 1.5rem;
   position: relative;
