@@ -51,8 +51,8 @@ function display_list(){
         result += `
     
         <tr>
-          <th scope="col" class="fs-4">${element.name}</th>
-          <th scope="col" class="fs-5">${element.price}</th>
+          <th scope="col" class="fs-md-4">${element.name}</th>
+          <th scope="col" class="fs-md-5">${element.price}</th>
           <th scope="col">1</th>
           <th scope="col"><img src=${element.url} alt =""  class="w-25"/></th>
           <th scope="col"><button class="btn btn-danger fs-6" onclick="Delete(${index})">Delete</button></th>

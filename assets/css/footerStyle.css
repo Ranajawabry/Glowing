@@ -26,6 +26,7 @@ body{
 
 }
 
+
 .catagory .title h2{
     font-weight: 600;
 }
@@ -54,6 +55,11 @@ body{
     transform: scale(1.2);
 }
 @media (max-width:991px) {
+   
+     .catagory .container-fluid{
+        width: 100% !important;
+    }
+   
     .catagory .test{
         margin-top: 25px;
     }

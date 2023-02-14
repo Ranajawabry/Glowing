@@ -55,7 +55,8 @@ nav{
   z-index: 9999;
 }
 .navbar {
-  padding: 2% 0;
+  padding-left: 4% !important;
+  padding-right:4% !important;
 }
 .search {
   color: #7e7e7e;
@@ -66,10 +67,33 @@ nav{
   .search {
     order: 1;
   }
+  nav .LOGO{
+    display: inline-block !important ;
+    width: 40%;
+    text-align: center;
+  }
   .nav-icons li span{
     display: none;
   }
+  .nav-icons ul {
+    padding: 0;
+    text-align: center;
+    margin: auto;
+    display: flex;
 }
+  }
+  @media (max-width: 765px) {
+    .navbar {
+      padding-left: 1% !important;
+      padding-right:1% !important;
+    }
+    nav .LOGO{
+ 
+      width: 45%;
+      
+    }
+
+  }
 .search i {
   font-size: 20px;
 }
@@ -107,6 +131,9 @@ nav{
 }
 .nav-item img {
   width: 180px;
+}
+nav .LOGO{
+  display: none;
 }
 .nav-icons i {
   font-size: 20px;
