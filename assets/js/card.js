@@ -35,10 +35,10 @@ function calculat_price(){
     card_list.forEach((element)=>{
 
      Total_Cost += element.price;
-     Total_price.innerHTML=`Total Cost: ${Total_Cost}$`;
-
+     
    })
 
+   Total_price.innerHTML=`Total Cost: ${Total_Cost}$`;
 
 }
 function display_list(){
@@ -63,6 +63,7 @@ function display_list(){
     });
 
     table_body.innerHTML=result;
+
     calculat_price();
 
 }
@@ -75,7 +76,11 @@ function Delete(index){
 
     card_list.splice(index,1);
     localStorage.setItem('card_list',JSON.stringify(card_list));
+    
     display_list();
+
+  
+
     card.innerHTML= card_list.length;
 
 }
@@ -87,7 +92,7 @@ DeleteAll.onclick = function(){
     localStorage.setItem('card_list',JSON.stringify(card_list));
     display_list();
     card.innerHTML=card_list.length;
-    Total_price.innerHTML=`Total Cost:0$`;
+   
 
     
  }

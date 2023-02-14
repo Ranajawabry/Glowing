@@ -55,3 +55,9 @@ button.splide__arrow.splide__arrow--next,
 ul.splide__pagination.splide__pagination--ltr{
     display: none;
 }
+ @media (max-width:765px) {
+    header h1{
+        font-size: 38px;
+    }
+    
+ }
