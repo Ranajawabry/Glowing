@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Urbanist", sans-serif;
+}
+
+a:hover{
+    color: black;
+}
+.myAcount h1{
+    font-size: 60px;
+}
+
+.myAcount h2{
+    font-size: 55px;
+    font-weight: 600;
+}
+ 
+
+.myAcount .login {
+    border: 1px solid #d3ced2;
+    
+}
+.myAcount .login label{
+    font-size: 20px;
+}
