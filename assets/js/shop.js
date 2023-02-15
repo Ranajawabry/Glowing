@@ -392,18 +392,16 @@ function AddToWish(a) {
     let wish_item={};
     wish_item.id=glow_products[a].id;
     wish_item.name=glow_products[a].name;
+    wish_item.price=glow_products[a].price;
     wish_item.url=glow_products[a].url;
     wish_item.catagory=glow_products[a].catagory;
     wish_item.sale=glow_products[a].sale;
     wish_item.color=glow_products[a].color;
-    
-    let arr = wish_list.filter((ele)=>{
-      return ele.name == wish_item.name;
-    });
-    if(arr.length==0){
-      wish_list.push(wish_item);
+    wish_list.push(wish_item);
       localStorage.setItem("wish_list" , JSON.stringify(wish_list));
       wish.innerHTML=wish_list.length;
+    
+      
     Swal.fire({
       position: 'center',
       icon: 'success',
@@ -411,16 +409,8 @@ function AddToWish(a) {
       showConfirmButton: false,
       timer: 1500
     })
-    }
-    else{
-      Swal.fire({
-        position: 'center',
-        icon: 'success',
-        title: 'Product already exist in wish List',
-        showConfirmButton: false,
-        timer: 1500
-      })
-    }
+    
+    
     
     console.log(wish_list);
 
